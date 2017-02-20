@@ -1,78 +1,166 @@
-<manifest alg="2" build="2015.2.1.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.smallhallstudios.com" resolutions="1x,2x" timestamp="1470836841655">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="underwater.brianlaferte.com" resolutions="1x,2x" timestamp="1487623940711">
   <folder name="css">
-    <file name="site_global.css" crc="210631474"/>
-    <file name="master_underwater-photography.css" crc="60500049" ref="index:landing_sites"/>
-    <file name="index.css" crc="268342771" ref="index"/>
-    <file name="landing_sites.css" crc="36620795" ref="landing_sites"/>
+    <file name="site_global.css" crc="233683517"/>
+    <file name="master_underwater-photography.css" crc="4187743897" ref="landing_sites:index"/>
+    <file name="landing_sites.css" crc="173689281" ref="landing_sites"/>
+    <file name="index.css" crc="465315925" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="169078940" ref="index:landing_sites"/>
-    <file name="museutils.js" crc="3851988764" ref="index:landing_sites"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:landing_sites"/>
+    <file name="museutils.js" crc="4232573551" ref="index:landing_sites"/>
     <file name="whatinput.js" crc="86476730" ref="index:landing_sites"/>
-    <file name="museconfig.js" crc="4242129463" ref="index:landing_sites"/>
-    <file name="webpro.js" crc="4067903014" ref="index"/>
-    <file name="musewpslideshow.js" crc="4265225696" ref="index"/>
-    <file name="jquery.museoverlay.js" crc="4075157096" ref="index"/>
-    <file name="touchswipe.js" crc="474750357" ref="index"/>
-    <file name="pie.js" crc="3831537696" ref="index"/>
-    <file name="jquery.watch.js" crc="3842844514" ref="index:landing_sites"/>
-    <file name="jquery.scrolleffects.js" crc="511146689" ref="index:landing_sites"/>
-    <file name="require.js" crc="4108833657" ref="index:landing_sites"/>
+    <file name="museconfig.js" crc="3849126041" ref="index:landing_sites"/>
+    <file name="webpro.js" crc="3770351119" ref="index"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="index"/>
+    <file name="touchswipe.js" crc="3912873526" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:landing_sites"/>
+    <file name="jquery.scrolleffects.js" crc="146279342" ref="index:landing_sites"/>
+    <file name="require.js" crc="4234670167" ref="index:landing_sites"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="3796333012" ref="index"/>
-    <file name="small_blank.png" crc="193781673" seo="true" ref="index"/>
-    <file name="small_blank_2x.png" crc="193781673" seo="true" ref="index"/>
+    <file name="small_blank.png" crc="193781673" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="small_blank_2x.png" crc="193781673" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="loading.gif" crc="3815509949" ref="index"/>
-    <file name="catfish_hotel.jpg" crc="154352805" seo="true" ref="index"/>
-    <file name="goby_peeking.jpg" crc="311094103" seo="true" ref="index"/>
-    <file name="grouper_lc.jpg" crc="385195107" seo="true" ref="index"/>
-    <file name="hermitcrab_tiny.jpg" crc="27240719" seo="true" ref="index"/>
-    <file name="jellyfish_lake_john.jpg" crc="4287938102" seo="true" ref="index"/>
-    <file name="mimic_cardinalfish.jpg" crc="468162751" seo="true" ref="index"/>
-    <file name="pelagic_puppy.jpg" crc="87036601" seo="true" ref="index"/>
-    <file name="squid_lc.jpg" crc="147038471" seo="true" ref="index"/>
-    <file name="squid_lightbeams.jpg" crc="464539676" seo="true" ref="index"/>
-    <file name="tigershark_ian.jpg" crc="506624374" seo="true" ref="index"/>
-    <file name="turtle_aquacat.jpg" crc="4183674989" seo="true" ref="index"/>
-    <file name="catfish_hotel60x48.jpg" crc="3813430074" seo="true" ref="index"/>
-    <file name="catfish_hotel60x48_2x.jpg" crc="4270233134" seo="true" ref="index"/>
-    <file name="goby_peeking68x45.jpg" crc="3995199574" seo="true" ref="index"/>
-    <file name="goby_peeking68x45_2x.jpg" crc="3875373242" seo="true" ref="index"/>
-    <file name="grouper_lc68x45.jpg" crc="4261129961" seo="true" ref="index"/>
-    <file name="grouper_lc68x45_2x.jpg" crc="4145323506" seo="true" ref="index"/>
-    <file name="hermitcrab_tiny68x45.jpg" crc="4216363543" seo="true" ref="index"/>
-    <file name="hermitcrab_tiny68x45_2x.jpg" crc="4119792507" seo="true" ref="index"/>
-    <file name="jellyfish_lake_john68x45.jpg" crc="4025428991" seo="true" ref="index"/>
-    <file name="jellyfish_lake_john68x45_2x.jpg" crc="4188955097" seo="true" ref="index"/>
-    <file name="mimic_cardinalfish-crop-u1675.jpg" crc="269400980" ref="index"/>
-    <file name="mimic_cardinalfish-crop-u1675_2x.jpg" crc="303962840" ref="index"/>
-    <file name="pelagic_puppy68x45.jpg" crc="113654043" seo="true" ref="index"/>
-    <file name="pelagic_puppy68x45_2x.jpg" crc="468657602" seo="true" ref="index"/>
-    <file name="squid_lc60x48.jpg" crc="4017169407" seo="true" ref="index"/>
-    <file name="squid_lc60x48_2x.jpg" crc="136321871" seo="true" ref="index"/>
-    <file name="squid_lightbeams68x45.jpg" crc="224200692" seo="true" ref="index"/>
-    <file name="squid_lightbeams68x45_2x.jpg" crc="3995305157" seo="true" ref="index"/>
-    <file name="tigershark_ian68x45.jpg" crc="3900428863" seo="true" ref="index"/>
-    <file name="tigershark_ian68x45_2x.jpg" crc="3802029131" seo="true" ref="index"/>
-    <file name="turtle_aquacat68x45.jpg" crc="80393374" seo="true" ref="index"/>
-    <file name="turtle_aquacat68x45_2x.jpg" crc="3888111937" seo="true" ref="index"/>
-    <file name="thumbs_reef-iebuttonu1741-fr.png" crc="3795798476" ref="index"/>
-    <file name="thumbs_reef.jpg" crc="4159501335" ref="index"/>
-    <file name="thumbs_reef-iebuttonu1741-r-fr.png" crc="364434345" ref="index"/>
-    <file name="thumbs_wide-iebuttonu1750-fr.png" crc="4081297333" ref="index"/>
-    <file name="thumbs_wide.jpg" crc="4220099650" ref="index"/>
-    <file name="thumbs_wide-iebuttonu1750-r-fr.png" crc="205127008" ref="index"/>
-    <file name="thumbs_macro-iebuttonu1758-fr.png" crc="164901572" ref="index"/>
-    <file name="thumbs_macro.jpg" crc="522620852" ref="index"/>
-    <file name="thumbs_macro-iebuttonu1758-r-fr.png" crc="518440692" ref="index"/>
-    <file name="thumbs_wrecks-iebuttonu1766-fr.png" crc="4021706873" ref="index"/>
-    <file name="thumbs_wrecks.jpg" crc="3895430073" ref="index"/>
-    <file name="thumbs_wrecks-iebuttonu1766-r-fr.png" crc="3954753759" ref="index"/>
-    <file name="brian_jelly_fish_lake155x144.jpg" crc="125196362" seo="true" ref="index"/>
-    <file name="brian_jelly_fish_lake155x144_2x.jpg" crc="497282549" seo="true" ref="index"/>
+    <file name="catfish_hotel.jpg" crc="154352805" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="goby_peeking.jpg" crc="311094103" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="grouper_lc.jpg" crc="385195107" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="hermitcrab_tiny.jpg" crc="27240719" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="jellyfish_lake_john.jpg" crc="4287938102" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mimic_cardinalfish.jpg" crc="468162751" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pelagic_puppy.jpg" crc="87036601" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="squid_lc.jpg" crc="147038471" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="squid_lightbeams.jpg" crc="464539676" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tigershark_ian.jpg" crc="506624374" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="turtle_aquacat.jpg" crc="4183674989" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="catfish_hotel60x48.jpg" crc="4129889372" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="catfish_hotel60x48_2x.jpg" crc="4209130575" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="goby_peeking68x45.jpg" crc="418270662" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="goby_peeking68x45_2x.jpg" crc="229149523" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="grouper_lc68x45.jpg" crc="478441849" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="grouper_lc68x45_2x.jpg" crc="4033163781" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="hermitcrab_tiny68x45.jpg" crc="3947301876" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="hermitcrab_tiny68x45_2x.jpg" crc="300263014" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="jellyfish_lake_john68x45.jpg" crc="4277076644" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="jellyfish_lake_john68x45_2x.jpg" crc="184060922" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="mimic_cardinalfish-crop-u1675.jpg" crc="3972167721" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="mimic_cardinalfish-crop-u1675_2x.jpg" crc="4151409155" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="pelagic_puppy68x45.jpg" crc="402263510" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="pelagic_puppy68x45_2x.jpg" crc="4121788019" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="squid_lc60x48.jpg" crc="3960992948" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="squid_lc60x48_2x.jpg" crc="4090464764" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="squid_lightbeams68x45.jpg" crc="64440753" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="squid_lightbeams68x45_2x.jpg" crc="3893101475" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="tigershark_ian68x45.jpg" crc="3786863863" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="tigershark_ian68x45_2x.jpg" crc="4261643857" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="turtle_aquacat68x45.jpg" crc="485073156" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="turtle_aquacat68x45_2x.jpg" crc="463735473" seo="true" ref="index">
+      <caption webpage="index" alt="Portrait of a Nassau Group on a dark blue background with the silouhet of a boat in the background."/>
+    </file>
+    <file name="thumbs_reef.jpg" crc="4159501335" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="thumbs_wide.jpg" crc="4220099650" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="thumbs_macro.jpg" crc="522620852" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="thumbs_wrecks.jpg" crc="3895430073" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="brian_jelly_fish_lake155x144.jpg" crc="392062056" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="brian_jelly_fish_lake155x144_2x.jpg" crc="3796468322" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4004218614" seo="true" mt="1408456779990" redirect="true"/>
-  <file name="landing_sites.html" crc="3801326905" seo="true" mt="1408456779991" redirect="true"/>
+  <file name="index.html" crc="4289562512" seo="true" mt="1487623856171" redirect="true"/>
+  <file name="landing_sites.html" crc="366555520" seo="true" mt="1487623705670" redirect="true"/>
 </manifest>
