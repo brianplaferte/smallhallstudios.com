@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="underwater.brianlaferte.com" resolutions="1x,2x" timestamp="1487623940711">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.smallhallstudios.com" resolutions="1x,2x" timestamp="1492805138218">
   <folder name="css">
     <file name="site_global.css" crc="233683517"/>
     <file name="master_underwater-photography.css" crc="4187743897" ref="landing_sites:index"/>
